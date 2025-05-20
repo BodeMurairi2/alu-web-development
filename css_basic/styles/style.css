@@ -2,6 +2,8 @@
 body {
     display: flex;
     flex-direction: column;
+    background: scroll;
+    background-color: aqua;
 }
 
 /* main */
@@ -9,12 +11,14 @@ main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    border:rgb(from color r g b);
 }
 
 /* article */
 article {
     flex: 2;
     overflow-y: auto;
+    border-style: dotted;
 }
 
 /* aside */
