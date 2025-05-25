@@ -1,0 +1,63 @@
+/* header css */
+/* header */
+header {
+width: 1103.4078369140625;
+height: 29.46099090576172;
+top: 35.02px;
+left: 171.59px;
+display: flex;
+flex-direction: row;
+margin-right: 70px;
+padding-left: 30px;
+
+}
+/* logo */
+.logo {
+width: 167.01577758789062;
+height: 29.46099090576172;
+top: 35.02px;
+left: 171.59px;
+margin-right: 80%;
+}
+/* links */
+.link1 {
+display: flex;
+flex-direction: row;
+padding-left: 10px;
+
+}
+.link2 {
+display: flex;
+flex-direction: row;
+margin-right: 20px;
+padding-left: 10px;
+color: white
+}
+.li
+.quote-section {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background-color: #C271FF;
+      padding: 2.5rem 9rem;
+      color: white;
+      grid-column: span 2;
+    }
+
+    .quote-section img {
+      border-radius: 9999px;
+      width: 120px;
+    }
+
+    .quote-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0.25rem;
+      padding: 0.5rem;
+      font-size: 1.125rem; /* text-lg */
+    }
+
+    .quote-content p:first-child {
+      font-size: 1.5rem; /* text-2xl */
+    }
